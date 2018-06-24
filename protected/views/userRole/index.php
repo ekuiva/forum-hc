@@ -14,7 +14,12 @@ $this->menu=array(
 
 <h1>User Roles</h1>
 
-<?php $this->widget('zii.widgets.CListView', array(
+<?php $this->widget('bootstrap.widgets.TbGridView', array(
+	'id'=>'user-role-grid',
 	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
+	'columns'=>array(
+			'id_user_role',
+		'user',
+		'description',
+	),
 )); ?>

@@ -32,15 +32,15 @@
 	</div>
 
 	<div class="form-group">
-		<?php //echo $form->labelEx($model,'salt'); ?>
-		<?php //echo $form->textField($model,'salt',array('class'=>'form-control col-lg-6', 'size'=>32,'maxlength'=>32)); ?>
-		<?php //echo $form->error($model,'salt'); ?>
+		<?php echo $form->labelEx($model,'salt'); ?>
+		<?php echo $form->textField($model,'salt',array('class'=>'form-control col-lg-6', 'size'=>32,'maxlength'=>32)); ?>
+		<?php echo $form->error($model,'salt'); ?>
 	</div>
 
 	<div class="form-group">
-		<?php //echo $form->labelEx($model,'id_users_role'); ?>
-		<?php //echo $form->textField($model,'id_users_role', array('class'=>'form-control col-lg-6')); ?>
-		<?php //echo $form->error($model,'id_users_role'); ?>
+		<?php echo $form->labelEx($model,'id_users_role'); ?>
+		<?php echo $form->textField($model,'id_users_role', array('class'=>'form-control col-lg-6')); ?>
+		<?php echo $form->error($model,'id_users_role'); ?>
 	</div>
 
 	<div class="form-group buttons">

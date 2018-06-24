@@ -14,7 +14,14 @@ $this->menu=array(
 
 <h1>Users</h1>
 
-<?php $this->widget('zii.widgets.CListView', array(
+<?php $this->widget('bootstrap.widgets.TbGridView', array(
+	'id'=>'user-grid',
 	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
+	'columns'=>array(
+			'id',
+		'username',
+		'password',
+		'salt',
+		'id_users_role',
+	),
 )); ?>
