@@ -82,7 +82,7 @@ $cs->registerScriptFile(Yii::app()->theme->baseUrl . "/assets/js/main.js", CClie
                         'label'=>'Users Role', 
                         'url'=>array('/usersRole'), 
                         'linkOptions'=>array('class'=>'nav-link'),
-                        'visible'=>!Yii::app()->user->isGuest),
+                        'visible'=>Yii::app()->user->name == 'admin'),
                 ),
             )); ?>
 

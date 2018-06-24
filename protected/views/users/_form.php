@@ -31,14 +31,15 @@
 		<?php echo $form->passwordField($model,'password',array('class'=>'form-control col-lg-6', 'size'=>32,'maxlength'=>32)); ?>
 		<?php echo $form->error($model,'password'); ?>
 	</div>
-
+	
+	<?php if (Yii::app()->user->name == 'admin'): ?>
 	<div class="form-group">
 		<?php $user_role = CHtml::listData(UsersRole::model()->findAll(),'id_user_role','user_role'); ?>
 		<?php echo $form->labelEx($model,'id_users_role'); ?>
 		<?php echo $form->dropDownList($model, 'id_users_role', $user_role, array('class'=>'form-control col-lg-6')); ?>
 		<?php echo $form->error($model,'id_users_role'); ?>
 	</div>
-
+	<?php endif; ?>
 	<div class="form-group buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save', array('class'=>'btn btn-primary')); ?>
 	</div>
