@@ -31,7 +31,7 @@ class UserIdentity extends CUserIdentity
 		// 	$this->errorCode=self::ERROR_NONE;
 		// return !$this->errorCode;
 
-		$users= User::model()->findByAttributes(array('username'=>$this->username));
+		$users= Users::model()->findByAttributes(array('username'=>$this->username));
             
         if($users===null) {
             $this->errorCode = self::ERROR_USERNAME_INVALID;                
