@@ -5,7 +5,8 @@
  *
  * The followings are the available columns in table 'posts_category':
  * @property integer $id
- * @property integer $category_name
+ * @property string $category_name
+ * @property string $description
  */
 class PostsCategory extends CActiveRecord
 {
@@ -25,11 +26,11 @@ class PostsCategory extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('category_name', 'required'),
-			array('category_name', 'numerical', 'integerOnly'=>true),
+			array('category_name, description', 'required'),
+			array('category_name', 'length', 'max'=>80),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, category_name', 'safe', 'on'=>'search'),
+			array('id, category_name, description', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,6 +53,7 @@ class PostsCategory extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'category_name' => 'Category Name',
+			'description' => 'Description',
 		);
 	}
 
@@ -74,7 +76,8 @@ class PostsCategory extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('category_name',$this->category_name);
+		$criteria->compare('category_name',$this->category_name,true);
+		$criteria->compare('description',$this->description,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

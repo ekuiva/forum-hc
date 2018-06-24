@@ -23,5 +23,6 @@ $this->menu=array(
 	'attributes'=>array(
 		'id',
 		'category_name',
+		'description',
 	),
 )); ?>

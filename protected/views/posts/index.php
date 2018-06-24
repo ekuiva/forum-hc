@@ -19,9 +19,12 @@ $this->menu=array(
 	'dataProvider'=>$dataProvider,
 	'columns'=>array(
 		array('header'=>'No.', 'class'=>'IndexColumn'),
-		'title',
+		array(
+		        'name'  => 'title',
+		        'value' => 'CHtml::link($data->title, Yii::app()->createUrl("posts/view",array("id"=>$data->primaryKey)))',
+		        'type'  => 'raw',
+		    ),
 		'description',
-		'id_user',
 		'published',
 		/*
 		'id_category',

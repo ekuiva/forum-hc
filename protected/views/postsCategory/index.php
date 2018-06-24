@@ -18,7 +18,9 @@ $this->menu=array(
 	'id'=>'posts-category-grid',
 	'dataProvider'=>$dataProvider,
 	'columns'=>array(
+		array('header'=>'No.', 'class'=>'IndexColumn'),
 		'id',
 		'category_name',
+		'description',
 	),
 )); ?>

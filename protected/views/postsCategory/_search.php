@@ -18,7 +18,12 @@
 
 	<div class="form-group">
 		<?php echo $form->label($model,'category_name'); ?>
-		<?php echo $form->textField($model,'category_name', array('class'=>'form-control col-lg-6')); ?>
+		<?php echo $form->textField($model,'category_name',array('class'=>'form-control col-lg-6', 'size'=>60,'maxlength'=>80)); ?>
+	</div>
+
+	<div class="form-group">
+		<?php echo $form->label($model,'description'); ?>
+		<?php echo $form->textArea($model,'description',array('class'=>'form-control col-lg-6', 'rows'=>6, 'cols'=>50)); ?>
 	</div>
 
 	<div class="form-group buttons">

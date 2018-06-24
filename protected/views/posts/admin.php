@@ -46,15 +46,12 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'filter'=>$model,
 	'columns'=>array(
 		array('header'=>'No.', 'class'=>'IndexColumn'),
-		'id',
-		'id_user',
-		'last_edited',
+		array(
+	        'name'  => 'title',
+	        'value' => 'CHtml::link($data->title, Yii::app()->createUrl("posts/view",array("id"=>$data->primaryKey)))',
+	        'type'  => 'raw',
+	    ),		
 		'published',
-		'title',
-		'description',
-		/*
-		'id_category',
-		*/
 	array(
 		'class'=>'CButtonColumn',
 	),

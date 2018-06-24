@@ -20,24 +20,6 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="form-group">
-		<?php //echo $form->labelEx($model,'id_user'); ?>
-		<?php //echo $form->textField($model,'id_user', array('class'=>'form-control col-lg-6')); ?>
-		<?php //echo $form->error($model,'id_user'); ?>
-	</div>
-
-	<div class="form-group">
-		<?php //echo $form->labelEx($model,'last_edited'); ?>
-		<?php //echo $form->textField($model,'last_edited', array('class'=>'form-control col-lg-6')); ?>
-		<?php //echo $form->error($model,'last_edited'); ?>
-	</div>
-
-	<div class="form-group">
-		<?php //echo $form->labelEx($model,'published'); ?>
-		<?php //echo $form->textField($model,'published', array('class'=>'form-control col-lg-6')); ?>
-		<?php //echo $form->error($model,'published'); ?>
-	</div>
-
-	<div class="form-group">
 		<?php echo $form->labelEx($model,'title'); ?>
 		<?php echo $form->textField($model,'title',array('class'=>'form-control col-lg-6', 'size'=>60,'maxlength'=>100)); ?>
 		<?php echo $form->error($model,'title'); ?>
@@ -50,8 +32,9 @@
 	</div>
 
 	<div class="form-group">
+		<?php $category_name = CHtml::listData(postsCategory::model()->findAll(),'id','category_name'); ?>
 		<?php echo $form->labelEx($model,'id_category'); ?>
-		<?php echo $form->textField($model,'id_category', array('class'=>'form-control col-lg-6')); ?>
+		<?php echo $form->dropDownList($model,'id_category', $category_name, array('class'=>'form-control col-lg-6')); ?>
 		<?php echo $form->error($model,'id_category'); ?>
 	</div>
 

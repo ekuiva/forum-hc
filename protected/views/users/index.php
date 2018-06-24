@@ -14,23 +14,16 @@ $this->menu=array(
 
 <h1>Users</h1>
 
-<!-- get role -->
-<?php $user_role = CHtml::listData(UsersRole::model()->findAll(),'id_user_role','user_role'); 
-	  // print_r("<pre>");
-	  // print_r($user_role);
-	  // print_r("</pre>");
-?>
-
 <?php $this->widget('bootstrap.widgets.TbGridView', array(
 	'id'=>'users-grid',
 	'dataProvider'=>$dataProvider,
 	'columns'=>array(
 		array('header'=>'No.', 'class'=>'IndexColumn'),
-		'username',
+		array(
+	        'name'  => 'username',
+	        'value' => 'CHtml::link($data->username, Yii::app()->createUrl("users/view",array("id"=>$data->primaryKey)))',
+	        'type'  => 'raw',
+	    ),
 		'id_users_role',
-			array(
-                    'header' => 'User Role',
-                    'name' => 'id_users_role',
-                ),
 	),
 )); ?>

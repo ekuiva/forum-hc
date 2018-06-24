@@ -21,8 +21,14 @@
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'category_name'); ?>
-		<?php echo $form->textField($model,'category_name', array('class'=>'form-control col-lg-6')); ?>
+		<?php echo $form->textField($model,'category_name',array('class'=>'form-control col-lg-6', 'size'=>60,'maxlength'=>80)); ?>
 		<?php echo $form->error($model,'category_name'); ?>
+	</div>
+
+	<div class="form-group">
+		<?php echo $form->labelEx($model,'description'); ?>
+		<?php echo $form->textArea($model,'description',array('class'=>'form-control col-lg-6', 'rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'description'); ?>
 	</div>
 
 	<div class="form-group buttons">
