@@ -1,0 +1,842 @@
+2018/06/08 10:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('user')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('user')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/user')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blogs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blogs/index.php?r=site/user
+---
+2018/06/08 10:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blogs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blogs/index.php?r=site/create
+---
+2018/06/08 10:58:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Users".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Users')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blogs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blogs/index.php?r=Users
+---
+2018/06/08 10:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "User".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blogs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blogs/index.php?r=User
+---
+2018/06/08 10:58:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "User".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blogs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blogs/index.php?r=User
+---
+2018/06/08 10:58:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Users".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Users')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blogs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blogs/index.php?r=Users
+---
+2018/06/08 10:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Users/index".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blogs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blogs/index.php?r=Users/index
+---
+2018/06/08 10:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Users/admin".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/admin')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blogs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blogs/index.php?r=Users/admin
+---
+2018/06/08 10:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Users/".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blogs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blogs/index.php?r=Users/
+---
+2018/06/22 05:56:39 [error] [php] include(TbArray.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php(4896): spl_autoload_call()
+#1 C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php(748): addSpanClass()
+#2 C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php(546): tag()
+#3 C:\xampp\htdocs\blog\protected\views\site\index.php(22): lead()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#8 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (4896)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (748)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (546)
+2018/06/22 05:57:23 [error] [php] include(TbArray.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php(4896): spl_autoload_call()
+#1 C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php(748): addSpanClass()
+#2 C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php(546): tag()
+#3 C:\xampp\htdocs\blog\protected\views\site\index.php(22): lead()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#8 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (4896)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (748)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (546)
+2018/06/22 06:08:14 [error] [php] include(TbApi.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php(230): spl_autoload_call()
+#1 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php(197): TbModal->registerClientScript()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(182): TbModal->run()
+#3 C:\xampp\htdocs\blog\protected\views\site\index.php(20): SiteController->widget()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#8 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php (230)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php (197)
+in C:\xampp\htdocs\blog\protected\views\site\index.php (20)
+2018/06/22 06:08:54 [error] [php] include(C:\xampp\htdocs\blog\protected\extensions\bootstrap\behaviors\TbApi.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:404)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php(230): spl_autoload_call()
+#1 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php(197): TbModal->registerClientScript()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(182): TbModal->run()
+#3 C:\xampp\htdocs\blog\protected\views\site\index.php(20): SiteController->widget()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#8 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php (230)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php (197)
+in C:\xampp\htdocs\blog\protected\views\site\index.php (20)
+2018/06/22 06:16:03 [error] [php] Array to string conversion (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php(191): modalBody()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(182): TbModal->run()
+#2 C:\xampp\htdocs\blog\protected\views\site\index.php(22): SiteController->widget()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#7 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (752)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (4603)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php (191)
+2018/06/22 08:25:59 [error] [php] Array to string conversion (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php(191): modalBody()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(182): TbModal->run()
+#2 C:\xampp\htdocs\blog\protected\views\site\index.php(22): SiteController->widget()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#7 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (752)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (4603)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php (191)
+2018/06/22 08:26:38 [error] [php] Array to string conversion (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php(191): modalBody()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(182): TbModal->run()
+#2 C:\xampp\htdocs\blog\protected\views\site\index.php(22): SiteController->widget()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#7 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (752)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (4603)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php (191)
+2018/06/22 08:28:05 [error] [php] Array to string conversion (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php(191): modalBody()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(182): TbModal->run()
+#2 C:\xampp\htdocs\blog\protected\views\site\index.php(20): SiteController->widget()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#7 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (752)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (4603)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbModal.php (191)
+2018/06/22 08:36:20 [error] [php] Undefined variable: model (C:\xampp\htdocs\blog\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\views\site\index.php (15)
+in C:\xampp\htdocs\blog\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\blog\index.php (13)
+2018/06/22 08:36:41 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_loginModal".' in C:\xampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\views\site\index.php(15): CController->renderPartial('_loginModal')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#5 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): CController->render('index')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blog/
+---
+2018/06/22 08:37:07 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_Users".' in C:\xampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\views\site\index.php(15): CController->renderPartial('_Users')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#5 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): CController->render('index')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blog/
+---
+2018/06/22 08:37:16 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_form".' in C:\xampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\views\site\index.php(15): CController->renderPartial('_form')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#5 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): CController->render('index')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blog/
+---
+2018/06/22 08:37:43 [error] [php] Undefined variable: model (C:\xampp\htdocs\blog\protected\views\site\login.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\blog\protected\views\site\index.php(15): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#6 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\views\site\login.php (28)
+in C:\xampp\htdocs\blog\protected\views\site\index.php (15)
+in C:\xampp\htdocs\blog\protected\controllers\SiteController.php (32)
+2018/06/22 08:38:08 [error] [php] Undefined variable: model (C:\xampp\htdocs\blog\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\views\site\index.php (15)
+in C:\xampp\htdocs\blog\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\blog\index.php (13)
+2018/06/22 08:38:14 [error] [php] Undefined variable: model (C:\xampp\htdocs\blog\protected\views\site\login.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\blog\protected\views\site\index.php(15): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#6 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\views\site\login.php (28)
+in C:\xampp\htdocs\blog\protected\views\site\index.php (15)
+in C:\xampp\htdocs\blog\protected\controllers\SiteController.php (32)
+2018/06/22 08:38:37 [error] [php] Undefined variable: model (C:\xampp\htdocs\blog\protected\views\site\login.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\blog\protected\views\site\index.php(16): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#6 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\views\site\login.php (28)
+in C:\xampp\htdocs\blog\protected\views\site\index.php (16)
+in C:\xampp\htdocs\blog\protected\controllers\SiteController.php (32)
+2018/06/22 09:19:35 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\components\UserIdentity.php(43): CComponent->__set('_id', '1')
+#1 C:\xampp\htdocs\blog\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blog/index.php?r=site/login
+HTTP_REFERER=http://localhost/blog/index.php?r=site/login
+---
+2018/06/22 09:21:00 [error] [php] Array to string conversion (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php(3077): createButton()
+#1 C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php(2915): btn()
+#2 C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php(2904): htmlButton()
+#3 C:\xampp\htdocs\blog\protected\views\site\index.php(11): button()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#8 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (3127)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (3077)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbHtml.php (2915)
+2018/06/22 09:30:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php?r=admin
+---
+2018/06/22 09:54:09 [error] [php] Illegal string offset 'label' (C:\xampp\htdocs\yii\framework\zii\widgets\CMenu.php:273)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): SiteController->createWidget()
+#1 C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\main.php(72): SiteController->widget()
+#2 C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\column1.php(2): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(787): SiteController->renderFile()
+#6 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\main.php (72)
+in C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\column1.php (2)
+in C:\xampp\htdocs\blog\protected\controllers\SiteController.php (32)
+2018/06/22 09:56:24 [error] [php] Illegal string offset 'label' (C:\xampp\htdocs\yii\framework\zii\widgets\CMenu.php:273)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): SiteController->createWidget()
+#1 C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\main.php(72): SiteController->widget()
+#2 C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\column1.php(2): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(787): SiteController->renderFile()
+#6 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/
+in C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\main.php (72)
+in C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\column1.php (2)
+in C:\xampp\htdocs\blog\protected\controllers\SiteController.php (32)
+2018/06/22 10:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('user')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('user')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/user')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php?r=site/user
+HTTP_REFERER=http://localhost/blog/index.php?r=user
+---
+2018/06/22 10:19:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('user')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('user')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php?r=user/user
+HTTP_REFERER=http://localhost/blog/index.php?r=user
+---
+2018/06/22 10:19:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('user')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('user')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/user')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php?r=site/user
+HTTP_REFERER=http://localhost/blog/index.php?r=site/page&view=about
+---
+2018/06/22 10:56:03 [error] [exception.CException] exception 'CException' with message 'Property "CMenu.0" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('0', '<button class="...')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(UserController), 'zii.widgets.CMe...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CMe...', Array)
+#3 C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\main.php(99): CBaseController->widget('zii.widgets.CMe...', Array)
+#4 C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\column2.php(2): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\blog\protected\controllers\UserController.php(128): CController->render('index', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/blog/index.php?r=user
+HTTP_REFERER=http://localhost/blog/index.php?r=site/page&view=about
+---
+2018/06/22 11:39:55 [error] [exception.CException] exception 'CException' with message 'Property "CBreadcrumbs.linkOptions" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('linkOptions', Array)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.CBr...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CBr...', Array)
+#3 C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\main.php(140): CBaseController->widget('zii.widgets.CBr...', Array)
+#4 C:\xampp\htdocs\blog\themes\yii-boostrap\views\layouts\column1.php(2): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/about')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/blog/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/blog/index.php?r=site&view=index
+---
+2018/06/22 12:21:01 [error] [php] include(TbDataColumn.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(92): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(383): TbGridView->createDataColumn()
+#2 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(75): TbGridView->initColumns()
+#3 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(359): TbGridView->initColumns()
+#4 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(44): TbGridView->init()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): TbGridView->init()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): UserController->createWidget()
+#7 C:\xampp\htdocs\blog\protected\views\user\admin.php(56): UserController->widget()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(872): UserController->renderFile()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(785): UserController->renderPartial()
+#12 C:\xampp\htdocs\blog\protected\controllers\UserController.php(143): UserController->render()
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/index.php?r=user/admin
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php (92)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php (75)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php (44)
+2018/06/22 12:23:30 [error] [php] include(TbDataColumn.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(92): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(383): TbGridView->createDataColumn()
+#2 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(75): TbGridView->initColumns()
+#3 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(359): TbGridView->initColumns()
+#4 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(44): TbGridView->init()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): TbGridView->init()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): UserController->createWidget()
+#7 C:\xampp\htdocs\blog\protected\views\user\admin.php(57): UserController->widget()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(872): UserController->renderFile()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(785): UserController->renderPartial()
+#12 C:\xampp\htdocs\blog\protected\controllers\UserController.php(143): UserController->render()
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/index.php?r=user/admin
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php (92)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php (75)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php (44)
+2018/06/22 12:29:53 [error] [php] include(C:\xampp\htdocs\blog\protected\extensions\bootstrap\helpers\TbDataColumn.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:404)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(92): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(383): TbGridView->createDataColumn()
+#2 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(75): TbGridView->initColumns()
+#3 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(359): TbGridView->initColumns()
+#4 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(44): TbGridView->init()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): TbGridView->init()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): UserController->createWidget()
+#7 C:\xampp\htdocs\blog\protected\views\user\admin.php(57): UserController->widget()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(872): UserController->renderFile()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(785): UserController->renderPartial()
+#12 C:\xampp\htdocs\blog\protected\controllers\UserController.php(143): UserController->render()
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/index.php?r=user/admin
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php (92)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php (75)
+in C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php (44)
+2018/06/22 12:30:21 [error] [exception.CException] exception 'CException' with message 'Alias "application.components.DataColumn" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(197): YiiBase::import('application.com...', true)
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(TbGridView))
+#2 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(75): CGridView->initColumns()
+#3 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(359): TbGridView->initColumns()
+#4 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(44): CGridView->init()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): TbGridView->init()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 C:\xampp\htdocs\blog\protected\views\user\admin.php(57): CBaseController->widget('bootstrap.widge...', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#12 C:\xampp\htdocs\blog\protected\controllers\UserController.php(143): CController->render('admin', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/blog/index.php?r=user/admin
+HTTP_REFERER=http://localhost/blog/index.php?r=user
+---
+2018/06/22 12:31:04 [error] [exception.CException] exception 'CException' with message 'Alias "application.components.DataColumn" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(197): YiiBase::import('application.com...', true)
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(TbGridView))
+#2 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(75): CGridView->initColumns()
+#3 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(359): TbGridView->initColumns()
+#4 C:\xampp\htdocs\blog\protected\extensions\bootstrap\widgets\TbGridView.php(44): CGridView->init()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): TbGridView->init()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 C:\xampp\htdocs\blog\protected\views\user\admin.php(57): CBaseController->widget('bootstrap.widge...', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#12 C:\xampp\htdocs\blog\protected\controllers\UserController.php(143): CController->render('admin', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/blog/index.php?r=user/admin
+HTTP_REFERER=http://localhost/blog/index.php?r=user
+---
+2018/06/22 12:32:58 [error] [php] include(TbPager.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(292): class_exists()
+#2 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): TbGridView->createWidget()
+#5 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(289): TbGridView->widget()
+#6 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(181): TbGridView->renderPager()
+#7 unknown(0): TbGridView->renderSection()
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#9 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(149): TbGridView->renderContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(182): TbGridView->run()
+#11 C:\xampp\htdocs\blog\protected\views\user\admin.php(56): UserController->widget()
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(872): UserController->renderFile()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(785): UserController->renderPartial()
+#16 C:\xampp\htdocs\blog\protected\controllers\UserController.php(143): UserController->render()
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/index.php?r=user/admin
+in C:\xampp\htdocs\blog\protected\views\user\admin.php (56)
+in C:\xampp\htdocs\blog\protected\controllers\UserController.php (143)
+in C:\xampp\htdocs\blog\index.php (13)
+2018/06/24 04:06:15 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.generators" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(520): CComponent->__set('generators', Array)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(86): CModule->configure(Array)
+#2 C:\xampp\htdocs\yii\framework\YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('gii/crud/index')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\forum-hc\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/forum-hc/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/forum-hc/index.php?r=gii/default/index
+---
+2018/06/24 04:10:21 [error] [exception.CException] exception 'CException' with message 'Alias "yii.gii" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:295
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(197): YiiBase::import('yii\\gii\\Module', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('yii\\gii\\Module', 'gii', NULL, Array)
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('gii/crud/index')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\forum-hc\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forum-hc/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/forum-hc/index.php?r=gii/default/index
+---
+2018/06/24 04:54:14 [warning] [application] Failed to set unsafe attribute "description" of "UserRole".
+in C:\xampp\htdocs\forum-hc\protected\controllers\UserRoleController.php (72)
+in C:\xampp\htdocs\forum-hc\index.php (13)
+2018/06/24 06:38:18 [error] [exception.CException] exception 'CException' with message 'Property "TbGridView.itemView" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('itemView', '_view')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(UserController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\forum-hc\protected\views\user\index.php(20): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\forum-hc\protected\controllers\UserController.php(128): CController->render('index', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\forum-hc\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/forum-hc/index.php?r=user/index
+HTTP_REFERER=http://localhost/forum-hc/index.php?r=user/create
+---
