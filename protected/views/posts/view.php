@@ -22,11 +22,19 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'id',
-		'id_user',
+		array(
+	        'name'  => 'Author',
+	        'value' => ucwords($username),
+	        'type'  => 'raw',
+	    ),
 		'last_edited',
 		'published',
 		'title',
 		'description',
-		'id_category',
+		array(
+	        'name'  => 'Category',
+	        'value' => $category_name,	
+	        'type'  => 'raw',
+	    ),
 	),
 )); ?>

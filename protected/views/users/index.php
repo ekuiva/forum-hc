@@ -24,6 +24,10 @@ $this->menu=array(
 	        'value' => 'CHtml::link($data->username, Yii::app()->createUrl("users/view",array("id"=>$data->primaryKey)))',
 	        'type'  => 'raw',
 	    ),
-		'id_users_role',
+	    array(
+	        'name'  => 'id_users_role',
+	        'value' => 'usersRole::model()->findByPk($data->id_users_role)->user_role',
+	        'type'  => 'raw',
+	    ),
 	),
 )); ?>

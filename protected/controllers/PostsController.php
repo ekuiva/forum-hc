@@ -50,9 +50,13 @@ class PostsController extends Controller
 	 * @param integer $id the ID of the model to be displayed
 	 */
 	public function actionView($id)
-	{
+	{	
+		$post = Posts::model()->findByPk($id);
+		$user = Users::model()->findByPk($post->id_user);
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
+			'category_name'=>$post->category->category_name,
+			'username'=>$user->username,
 		));
 	}
 
@@ -139,11 +143,16 @@ class PostsController extends Controller
 	{
 		$model=new Posts('search');
 		$model->unsetAttributes();  // clear any default values
+				$post = Posts::model()->findByPk($id);
+		$user = Users::model()->findByPk($post->id_user);
+			
 		if(isset($_GET['Posts']))
 			$model->attributes=$_GET['Posts'];
 
 		$this->render('admin',array(
 			'model'=>$model,
+			'category_name'=>$post->category->category_name,
+			'username'=>$user->username,
 		));
 	}
 

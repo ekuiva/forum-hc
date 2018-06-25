@@ -25,6 +25,10 @@ $this->menu=array(
 		'username',
 		'password',
 		'salt',
-		'id_users_role',
+	    array(
+	        'name'  => 'id_users_role',
+	        'value' => usersRole::model()->findByPk($model->id_users_role)->user_role,
+	        'type'  => 'raw',
+	    ),
 	),
 )); ?>

@@ -24,10 +24,11 @@ $this->menu=array(
 		        'value' => 'CHtml::link($data->title, Yii::app()->createUrl("posts/view",array("id"=>$data->primaryKey)))',
 		        'type'  => 'raw',
 		    ),
-		'description',
+		array(
+	        'name'  => 'Category',
+	        'value' => 'postsCategory::model()->findByPk($data->id_category)->category_name',	
+	        'type'  => 'raw',
+	    ),
 		'published',
-		/*
-		'id_category',
-		*/
 	),
 )); ?>

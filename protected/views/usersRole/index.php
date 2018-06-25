@@ -18,8 +18,12 @@ $this->menu=array(
 	'id'=>'users-role-grid',
 	'dataProvider'=>$dataProvider,
 	'columns'=>array(
-			'id_user_role',
-		'user_role',
+		array('header'=>'No.', 'class'=>'IndexColumn'),
+		array(
+	        'name'  => 'user_role',
+	        'value' => 'CHtml::link($data->user_role, Yii::app()->createUrl("usersRole/view",array("id"=>$data->primaryKey)))',
+	        'type'  => 'raw',
+	    ),
 		'description',
 	),
 )); ?>
